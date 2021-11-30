@@ -22,7 +22,7 @@ display_usage() {
  
 # Sequential version
 
-# Replace here the name for workspace and MyApp1 etc with the names of your workspace targets
+# Replace here the name for workspace and MyApp1 etc with the names of your workspace and your targets
 xcodebuild -workspace macmark.de.xcworkspace -parallelizeTargets -scheme MyApp1 archive
 xcodebuild -workspace macmark.de.xcworkspace -parallelizeTargets -scheme MyApp2 archive
 xcodebuild -workspace macmark.de.xcworkspace -parallelizeTargets -scheme MyApp3 archive
