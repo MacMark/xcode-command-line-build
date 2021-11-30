@@ -10,6 +10,7 @@ Here're some shell scripts that can
 - export to IPA
 - upload to App Store Connect / TestFlight
 with just one line like
+
 ~/bin/publishApps.sh
 
 ## Usage
