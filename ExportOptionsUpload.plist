@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<!--Share and enjoy! Written by www.macmark.de @macmark_de https://github.com/MacMark/xcode-command-line-build -->
+<dict>
+	<key>destination</key>
+	<string>export</string>
+	<key>thinning</key>
+	<string>thin-for-all-variants</string>
+	<key>method</key>
+	<string>app-store</string>
+	<key>uploadBitcode</key>
+	<false/>
+	<key>uploadSymbols</key>
+	<true/>
+	<key>provisioningProfiles</key>
+	<dict>
+	<!--For every target of your project you need to provide a key and a string-->
+	<!--The key should be the target's Product Name. It can be found in Build Settings - Packaging of the target. -->
+	<!--The string should be the name of the Distribution Profile that should be used for this target. The profile's name can be found at developer.apple.com in Certificates, Identifiers & Profiles - Profiles -->
+	<!--Below are some sample entries -->
+	<!-- You should put here all your targets from your Xcode project like apps, notification services, today extensions, intent extensions and widget extensions.  -->
+		<key>de.macmark.myapp</key>
+		<string>Distri Profile for MyApp</string>
+		<key>de.macmark.myapp.MyAppNotificationService</key>
+		<string>Wildcard Distri for Store</string>
+		<key>de.macmark.muyapp.TodayExtension</key>
+		<string>my app today store distri</string>
+	</dict>
+</dict>
+</plist>
