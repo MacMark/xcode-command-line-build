@@ -40,4 +40,4 @@ These scripts are provided for anyone to use for anything for free. I selected t
 You can reach me via
 - https://www.macmark.de
 - https://twitter.com/macmark_de
-- mailto:macmark@macmark.de
+- macmark@macmark.de
